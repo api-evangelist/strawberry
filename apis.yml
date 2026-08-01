@@ -1,8 +1,17 @@
 aid: strawberry
 name: Strawberry
-description: 'Strawberry is a company surfaced as a portfolio company of eqt-ventures, general-catalyst
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Strawberry is an agentic web browser for macOS with AI companions that
+  work inside it: you describe an outcome and a companion operates the open web on
+  your behalf — logged in as you, across many tabs — to research, extract data, fill
+  forms, draft messages, and run multi-step work end to end ("Do hours of work in
+  minutes"). Companions are persistent AI teammates you brief once; Routines run work
+  on a schedule; Skills save a workflow to re-run in one line; Integrations let companions
+  act across apps you are already signed into (Gmail, Google Sheets, Notion, Slack,
+  Stripe, and more). It keeps a human in control, asking approval before consequential
+  actions. Distributed as a desktop app, metered in credits. Backed by EQT Ventures
+  and General Catalyst. Strawberry publishes no public REST/OpenAPI developer API as
+  of this profiling; its surface is the consumer app plus web documentation, a security
+  program, and machine-readable llms.txt and security.txt.'
 url: https://raw.githubusercontent.com/api-evangelist/strawberry/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,30 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://strawberrybrowser.com/images/og-image.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Agentic Browser
+- AI Agents
+- Browser
+- Productivity
+- Automation
+- Web Scraping
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,34 @@ maintainers:
 common:
 - type: Website
   url: https://strawberrybrowser.com/
+- type: Documentation
+  url: https://docs.strawberrybrowser.com/
+- type: GettingStarted
+  url: https://strawberrybrowser.com/tutorials
+- type: Blog
+  url: https://strawberrybrowser.com/blog
+- type: Pricing
+  url: https://strawberrybrowser.com/pricing
+- type: Support
+  url: https://strawberrybrowser.com/join-discord
+- type: TermsOfService
+  url: https://strawberrybrowser.com/legal/business-terms
+- type: PrivacyPolicy
+  url: https://strawberrybrowser.com/legal/privacy-policy
+- type: Security
+  url: https://strawberrybrowser.com/security
+- type: VulnerabilityDisclosure
+  url: security/strawberry-vulnerability-disclosure.yml
+- type: SecurityTxt
+  url: well-known/strawberry-security.txt
+- type: WellKnown
+  url: well-known/strawberry-well-known.yml
+- type: DomainSecurity
+  url: security/strawberry-domain-security.yml
+- type: LLMsTxt
+  url: llms/strawberry-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
