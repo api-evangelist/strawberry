@@ -45,7 +45,7 @@ accessModel:
 image: https://strawberrybrowser.com/images/og-image.png
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Artificial Intelligence
@@ -71,6 +71,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://strawberrybrowser.com/blog/rss.xml
+  type: BlogRSS
 - type: Website
   url: https://strawberrybrowser.com/
 - type: Documentation
